@@ -1,0 +1,34 @@
+body {
+  background-color: #f0f9a9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  transition: all 1s ease;
+}
+
+#Javascript {
+  background-color: black;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  box-shadow: 10px 10px #4e0c0c;
+  margin: 90% 0%;
+  transition: all 1s ease;
+}
+
+#Javascript p {
+  font-family: "Nabla", cursive;
+  text-shadow: 1px 1px #ffffff;
+  font-size: 50px;
+  margin: 0;
+}
+
+#Javascript:hover {
+  box-shadow: none;
+}
+
+body:hover {
+  background-color: #000000;
+}
